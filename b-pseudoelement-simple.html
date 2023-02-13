@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      .list {
+        max-width: 600px;
+        margin: 20px auto;
+        font-size: 34px;
+        list-style: none;
+      }
+
+      .list__element {
+        margin-bottom: 10px;
+      }
+
+      .list__element::before {
+        content: "";
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        background-image: url("./apple.png");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="list">
+      <li class="list__element">pierwszy element</li>
+      <li class="list__element">drugi element</li>
+      <li class="list__element">trzeci element</li>
+      <li class="list__element">czwarty element</li>
+      <li class="list__element">piąty element</li>
+      <li class="list__element">szósty element</li>
+    </ul>
+  </body>
+</html>

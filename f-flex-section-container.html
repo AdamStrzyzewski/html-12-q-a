@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        /* border: 3px solid red; */
+      }
+
+      .home__container {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        /* main axis */
+        justify-content: space-between;
+        /* cross axis */
+        align-items: center;
+      }
+
+      .home__header {
+        color: white;
+        font-size: 50px;
+        padding: 10px;
+        background-color: rgba(0, 255, 0, 0.5);
+      }
+
+      .home__desc {
+        padding: 10px;
+        font-size: 40px;
+        color: white;
+        background-color: rgba(255, 0, 0, 0.5);
+      }
+
+      .home {
+        background-image: url("/img.jpg");
+        background-color: aquamarine;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* background-size: 1600px; */
+      }
+
+      .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .navigation__list {
+        display: flex;
+        list-style: none;
+      }
+
+      .navigation__element {
+        font-size: 20px;
+        padding: 0 15px;
+        display: flex;
+        align-items: center;
+      }
+      .link__icon {
+        width: 24px;
+        height: 24px;
+      }
+
+      .link__text {
+        display: block;
+      }
+
+      .navigation__icon {
+        width: 30px;
+        height: 30px;
+      }
+      .navigation__icon:hover {
+        fill: #2196f3;
+      }
+
+      .navigation__link {
+        display: flex;
+        padding: 10px 0;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+      }
+
+      .navigation__link:hover {
+        color: #2196f3;
+      }
+
+      .header__logo {
+        color: #2196f3;
+        font-size: 45px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container container">
+        <a class="header__logo" href="#">HeroLogo</a>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__element">
+              <a href="#" class="navigation__link no-after">
+                <svg class="navigation__icon">
+                  <use href="./symbol-defs.svg#icon-home"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="navigation__element">
+              <a href="#" class="navigation__link">About</a>
+            </li>
+            <li class="navigation__element">
+              <a href="#" class="navigation__link link">
+                <svg class="link__icon">
+                  <use href="./symbol-defs.svg#icon-home"></use>
+                </svg>
+                <span class="link__text">Team</span></a
+              >
+            </li>
+            <li class="navigation__element">
+              <a href="#" class="navigation__link">Contact</a>
+            </li>
+            <li class="navigation__element">
+              <a href="#" class="navigation__link">Best Deals</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="home">
+        <div class="container home__container">
+          <h1 class="home__header">Hero Header</h1>
+          <p class="home__desc">Best site ever</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <!-- treść stopki -->
+      </div>
+    </footer>
+  </body>
+</html>

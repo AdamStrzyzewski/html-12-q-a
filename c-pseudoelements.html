@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      *::before,
+      ::after {
+        content: "";
+        position: absolute;
+      }
+
+      a {
+        color: black;
+        text-decoration: none;
+      }
+
+      .list {
+        list-style: none;
+        max-width: 600px;
+        margin: 20px auto;
+        font-size: 34px;
+      }
+
+      .list__element {
+        position: relative;
+        margin-bottom: 20px;
+        overflow: hidden;
+        padding: 0 30px;
+        width: max-content;
+      }
+
+      .list__element::before,
+      .list__element::after {
+        position: absolute;
+        width: 25px;
+        height: 100%;
+        background-image: url("./apple.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        transition: transform 0.2s;
+      }
+      .list__element::before {
+        left: 0;
+      }
+      .list__element::after {
+        right: -25px;
+      }
+      .list__element:hover::before {
+        transform: translateX(-25px);
+      }
+      .list__element:hover::after {
+        transform: translateX(-25px);
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="list">
+      <li class="list__element"><a href="">pierwszy element</a></li>
+      <li class="list__element"><a href="">drugi element</a></li>
+      <li class="list__element"><a href="">trzeci element</a></li>
+      <li class="list__element"><a href="">czwarty element</a></li>
+      <li class="list__element"><a href="">piąty element</a></li>
+      <li class="list__element"><a href="">szósty element</a></li>
+    </ul>
+  </body>
+</html>

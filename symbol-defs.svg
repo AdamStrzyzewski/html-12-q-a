@@ -1,0 +1,17 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-smartphone" viewBox="0 0 20 32">
+<path fill="#757575" style="fill: var(--color1, #757575)" d="M17 0h-14c-1.654 0-3 1.346-3 3v26c0 1.654 1.346 3 3 3h14c1.654 0 3-1.346 3-3v-26c0-1.654-1.346-3-3-3zM3 2h14c0.552 0 1 0.448 1 1v21h-16v-21c0-0.552 0.448-1 1-1zM17 30h-14c-0.552 0-1-0.448-1-1v-3h16v3c0 0.552-0.448 1-1 1z"></path>
+<path fill="#757575" style="fill: var(--color1, #757575)" d="M4.707 27.478c0.391 0.365 0.391 0.956 0 1.321s-1.024 0.365-1.414 0c-0.391-0.365-0.391-0.956 0-1.321s1.024-0.365 1.414 0z"></path>
+</symbol>
+<symbol id="icon-home" viewBox="0 0 32 32">
+<path d="M32 19l-6-6v-9h-4v5l-6-6-16 16v1h4v10h10v-6h4v6h10v-10h4z"></path>
+</symbol>
+<symbol id="icon-office" viewBox="0 0 32 32">
+<path d="M0 32h16v-32h-16v32zM10 4h4v4h-4v-4zM10 12h4v4h-4v-4zM10 20h4v4h-4v-4zM2 4h4v4h-4v-4zM2 12h4v4h-4v-4zM2 20h4v4h-4v-4zM18 10h14v2h-14zM18 32h4v-8h6v8h4v-18h-14z"></path>
+</symbol>
+<symbol id="icon-music" viewBox="0 0 32 32">
+<path d="M30 0h2v23c0 2.761-3.134 5-7 5s-7-2.239-7-5c0-2.761 3.134-5 7-5 1.959 0 3.729 0.575 5 1.501v-11.501l-16 3.556v15.444c0 2.761-3.134 5-7 5s-7-2.239-7-5c0-2.761 3.134-5 7-5 1.959 0 3.729 0.575 5 1.501v-19.501l18-4z"></path>
+</symbol>
+</defs>
+</svg>
